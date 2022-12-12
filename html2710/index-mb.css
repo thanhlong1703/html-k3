@@ -1,0 +1,322 @@
+@media screen and (max-width: 430px) {
+  .header {
+    width: 380px;
+    padding-top: 50px;
+  }
+  .header h1 {
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  .navbar-mb {
+    display: inline-block;
+  }
+  .navbar-mb:active .subnav-mb {
+    display: block;
+    position: absolute;
+  }
+  .subnav-mb {
+    display: none;
+  }
+  .subnav-mb li {
+    list-style-type: none;
+  }
+  .subnav-mb a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    color: #272d38;
+  }
+  .subnav {
+    display: none;
+  }
+  /*banner*/
+  .banner {
+    margin-right: 25px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .banner-title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .banner-title h1 {
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-style: normal;
+    color: #272d38;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .banner-title p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #272d38;
+    line-height: 27.5px;
+    text-transform: capitalize;
+    width: 100%;
+    margin-bottom: 0px;
+    text-align: center;
+    padding: 0 5px 24px 5px;
+  }
+  .banner button {
+    width: 140px;
+    height: 35px;
+    background-color: #8eadd5;
+    border-radius: 8px;
+    border: none;
+  }
+  .banner-img {
+    margin-top: 48px;
+  }
+  .banner img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /**/
+  .companies {
+    width: 100%;
+    margin: auto;
+    margin-top: 120px;
+    text-align: center;
+  }
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f6f6f6;
+    padding: 32px 16px;
+    margin: 0 24px;
+    margin-top: 16px;
+    border-radius: 8px;
+  }
+  .logo img {
+    width: 70%;
+  }
+  /**/
+  .brand {
+    margin-right: 25px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .brand-img {
+    display: none;
+  }
+  .brand-title {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .brand-title h1 {
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: capitalize;
+    font-style: normal;
+    color: #272d38;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .brand-title p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #272d38;
+    line-height: 27.5px;
+    text-transform: capitalize;
+    width: 100%;
+    margin-bottom: 32px;
+    text-align: center;
+    padding: 0 5px 24px 5px;
+  }
+  .brand-title button {
+    background-color: transparent;
+    border: none;
+    transform: rotate(90.1deg);
+    margin-bottom: 24px;
+  }
+
+  .brand img {
+    width: 100%;
+    height: 100%;
+  }
+  /**/
+  .custome {
+    margin-right: 25px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .custome-title {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .custome-title h1 {
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: capitalize;
+    font-style: normal;
+    color: #272d38;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .custome-title p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #272d38;
+    line-height: 27.5px;
+    text-transform: capitalize;
+    width: 100%;
+    margin-bottom: 32px;
+    text-align: center;
+    padding: 0 5px 24px 5px;
+  }
+  .custome-title button {
+    background-color: transparent;
+    border: none;
+    transform: rotate(90.1deg);
+    margin-bottom: 24px;
+  }
+  .banner-img-mb {
+    margin-top: 48px;
+  }
+  .custome img {
+    width: 100%;
+    height: 100%;
+  }
+  /**/
+  .testimonials {
+    width: 100%;
+    margin-top: 120px;
+  }
+  .testimonial-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .testimonials h1 {
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #272d38;
+  }
+  .testimonials > p {
+    font-weight: 700;
+    color: #272d38;
+    font-size: 32px;
+    width: 90%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+  }
+  .testimonial-title-card {
+    background-color: #f6f6f6;
+    border-radius: 20px;
+    margin: 20px;
+  }
+  .testimonial-title-card p {
+    width: 70%;
+    font-weight: 300;
+    font-size: 14px;
+    color: #272d38;
+    text-transform: capitalize;
+    margin: auto;
+    margin-top: 32px;
+    padding-bottom: 32px;
+  }
+  /**/
+  .contact {
+    width: auto;
+    margin: 20px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f6;
+    justify-content: center;
+    border-radius: 20px;
+  }
+  .contact-img {
+    display: none;
+  }
+  .contact-title {
+    margin: auto;
+    margin-top: 56px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-title h1 {
+    width: 70%;
+    font-weight: 700;
+    font-size: 32px;
+    font-style: normal;
+    color: #272d38;
+    margin: auto;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+  .contact-title p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #272d38;
+    line-height: 27.5px;
+    margin: auto;
+    margin-bottom: 48px;
+    width: 85%;
+    text-align: center;
+  }
+  .contact button {
+    width: 167px;
+    height: 48px;
+    background-color: #8eadd5;
+    border-radius: 8px;
+    border: none;
+  }
+  /**/
+  .footer {
+    margin-top: 128px;
+    padding-bottom: 100px;
+  }
+  .footer-info {
+    padding: 0px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-logo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 72px;
+  }
+  .footer-nav {
+    margin-top: 32px;
+    text-align: center;
+    margin-bottom: 72px;
+  }
+  .footer-title {
+    font-weight: 700;
+    font-size: 18px;
+    color: #272d38;
+    text-align: center;
+  }
+  .footer-info p {
+    margin: auto;
+    margin-top: 40px;
+    width: 55%;
+    font-weight: 300;
+    font-size: 16px;
+    text-transform: capitalize;
+  }
+}

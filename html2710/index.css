@@ -1,0 +1,324 @@
+:root {
+  font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: "Inter var", sans-serif;
+  }
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*header*/
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 74.7%;
+  margin: auto;
+  padding-top: 46px;
+}
+.header h1 {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.subnav {
+  display: flex;
+  flex-direction: row;
+}
+.subnav li {
+  margin-left: 44px;
+  list-style-type: none;
+  text-decoration: none;
+}
+.subnav a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  color: #272d38;
+}
+.navbar-mb {
+  display: none;
+}
+/*banner*/
+.banner {
+  margin: auto;
+  margin-top: 100px;
+  width: 73.9%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.banner-title {
+  width: 54.7%;
+}
+.banner-title h1 {
+  font-weight: 700;
+  font-size: 64px;
+  text-transform: capitalize;
+  font-style: normal;
+  color: #272d38;
+  margin-bottom: 25px;
+}
+.banner-title p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #272d38;
+  line-height: 27.5px;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+  width: 85%;
+}
+.banner img {
+  width: 450px;
+  height: 450px;
+}
+.banner button {
+  width: 167px;
+  height: 48px;
+  background-color: #8eadd5;
+  border-radius: 8px;
+  border: none;
+}
+.banner a button {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/*Companies*/
+.companies {
+  width: 63.54%;
+  margin: auto;
+  margin-top: 150px;
+  text-align: center;
+}
+.companies p {
+  font-weight: 300;
+  font-size: 16px;
+  color: #667085;
+  text-transform: capitalize;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  background-color: #f6f6f6;
+}
+/*Brand*/
+.brand {
+  margin: auto;
+  margin-top: 100px;
+  width: 73.9%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.brand-title {
+  width: 41.7%;
+}
+.brand-title h1 {
+  font-weight: 700;
+  font-size: 48px;
+  text-transform: capitalize;
+  font-style: normal;
+  color: #272d38;
+  margin-bottom: 25px;
+}
+.brand-title p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #272d38;
+  line-height: 27.5px;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+  width: 85%;
+}
+.brand-title button {
+  background-color: transparent;
+  border: none;
+}
+/*Custome*/
+.custome {
+  margin: auto;
+  margin-top: 100px;
+  width: 73.9%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.custome-title {
+  width: 41.7%;
+}
+.custome-title h1 {
+  font-weight: 700;
+  font-size: 48px;
+  text-transform: capitalize;
+  font-style: normal;
+  color: #272d38;
+  margin-bottom: 25px;
+}
+.custome-title p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #272d38;
+  line-height: 27.5px;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+  width: 88%;
+}
+.custome-title button {
+  background-color: transparent;
+  border: none;
+}
+/*Testimonial*/
+.testimonials {
+  width: 74.7%;
+  margin: auto;
+  text-align: center;
+}
+.testimonials h1 {
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #272d38;
+}
+.testimonials > p {
+  font-weight: 700;
+  color: #272d38;
+  font-size: 48px;
+  width: 40%;
+  margin: auto;
+  text-transform: capitalize;
+}
+.testimonial-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.testimonial-title-card {
+  background-color: #f6f6f6;
+  border-radius: 20px;
+  margin: 10px;
+}
+.testimonial-title-card h3 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #272d38;
+}
+.testimonial-title-card img {
+  width: 37.4%;
+}
+.testimonial-title-card p {
+  margin: 32px;
+  font-weight: 300;
+  font-size: 14px;
+  color: #272d38;
+  text-transform: capitalize;
+}
+/*Contact*/
+.contact {
+  width: 74.7%;
+  margin: auto;
+  margin-top: 140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #f6f6f6;
+}
+.contact img {
+  margin-left: 75px;
+}
+.contact-title {
+  margin-top: 100px;
+  width: 40%;
+}
+.contact-title h1 {
+  font-weight: 700;
+  font-size: 48px;
+  font-style: normal;
+  color: #272d38;
+  margin-bottom: 16px;
+}
+.contact-title p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #272d38;
+  line-height: 27.5px;
+  margin-bottom: 30px;
+  width: 85%;
+}
+.contact button {
+  width: 167px;
+  height: 48px;
+  background-color: #8eadd5;
+  border-radius: 8px;
+  border: none;
+}
+.contact a button {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/*Footer*/
+.footer {
+  background-color: #f6f6f6;
+  margin-top: 140px;
+}
+.footer-info {
+  padding-top: 100px;
+  padding-left: 13.2%;
+  padding-right: 13.2%;
+
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-logo {
+  width: 20%;
+}
+.footer-info p {
+  margin-top: 40px;
+  width: 100%;
+  font-weight: 300;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.footer-title {
+  font-weight: 700;
+  font-size: 18px;
+  color: #272d38;
+}
+.footer-nav {
+  margin-top: 32px;
+}
+
+.footer-nav li {
+  list-style-type: none;
+  padding: 10px 0;
+}
+.footer-nav a {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  text-transform: capitalize;
+  color: #272d38;
+}
+.copy-right {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 100%;
+  color: #272d38;
+  margin-top: 100px;
+  text-align: center;
+}
